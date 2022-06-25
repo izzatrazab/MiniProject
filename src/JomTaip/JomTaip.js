@@ -95,6 +95,8 @@ export default function JomTaip() {
             }}
           />
           <button
+            onMouseEnter={(e) => {e.target.style.backgroundColor = 'rgb(8, 123, 151)'}}
+            onMouseLeave={(e) => {e.target.style.backgroundColor = 'rgb(19, 146, 250)'}}
             id="reload"
             onClick={() => {
               window.location.reload(false);
@@ -103,6 +105,11 @@ export default function JomTaip() {
             &#x27F3;
           </button>
         </div>
+        <span>ongoing</span>
+        <span>1) use the correct method of calculating WPM</span>
+        <span>2) word choice must extra random</span>
+        <span>3) add difficulty level</span>
+         
       </div>
     </div>
   );
