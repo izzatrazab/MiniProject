@@ -30,7 +30,7 @@ export default function JomTaip() {
   };
 
   return (
-    <div className="App">
+    <div>
       <header className="jomtaip-header">JOM TAIP</header>
 
       <div id="typing">
