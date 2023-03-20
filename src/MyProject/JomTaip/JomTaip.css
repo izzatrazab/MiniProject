@@ -2,12 +2,12 @@
   font-size: calc(10px + 2vmin);
   color: rgb(255, 252, 50);
   font-weight: 1000;
+  text-align: center;
 }
 
 #typing {
   display:flex;
   flex-direction: column;
-  width: 80vw;
   max-width: 700px;
   border-style: solid;
   border-color: yellow;

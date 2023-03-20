@@ -20,14 +20,14 @@ const Menu = () => {
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <div className="side">ads</div>
+      <div className="side"></div>
       <div className="center">
         <Routes>
           <Route path="/" element={<Menu />} />
           <Route path="MyProject//*" element={<MyProject />} />
         </Routes>
       </div>
-      <div className="side">ads</div>
+      <div className="side"></div>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
